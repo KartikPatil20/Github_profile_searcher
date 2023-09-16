@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github-Profile-Searcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main onload="personal_detail()">
+        <div  class="search-bar" id="search"><input type="search" id="input"  placeholder="Enter User Id"></div>
+        <div class="profile-card">
+            <img src="" alt="" id="img">
+            <div class="profile-details">
+                <h1 id="profile-name"></h1>
+                <p id="profile-bio"></p>
+                <div id="short-details">
+                    <h5>Followers : <span id="followers"></span></h5>
+                    <h5>Following : <span id="following"></span></h5>
+                    <h5>Repos : <span id="repos"></span></h5>
+                    <h5>Twitter : <span id="twitter"></span></h5>
+                    <h5>Location : <span id="location"></span></h5>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
